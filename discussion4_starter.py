@@ -19,6 +19,14 @@ class Rectangle():
         rectangle_area = self.width * self.height
         return rectangle_area
     
+    def perimeter(self):
+        rectangle_perimeter = 0
+        if self.verify_input() is False:
+            return "Invalid input"
+        rectangle_perimeter = 2 * (self.width + self.height)
+        return rectangle_perimeter
+
+    
 
 
     
