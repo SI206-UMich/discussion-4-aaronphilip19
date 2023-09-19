@@ -3,6 +3,10 @@ class Rectangle():
         self.width = width
         self.height = height
 
+    def __str__(self):
+        return "A rectangle with width " + str(self.widthwidth) + " and height " + str(self.height)
+    
+    
     
     
     # Create the constructor "__init__" method
